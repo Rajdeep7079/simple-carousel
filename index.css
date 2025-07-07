@@ -1,0 +1,38 @@
+.carousel{
+    height: 300px ;
+    width: 500px;
+    border: 10px solid;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+body{
+    text-align: center;
+    background-color: beige;
+}
+.carousel>image{
+ object-fit: cover;   
+ overflow: hidden;
+ height: 100%;
+ width: 100%;
+ transition: 0.5 sec ease-in-out;
+ 
+}
+
+#control-buttons{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+button{
+    padding: 10px 20px;
+    margin: 0px 10px;
+    background-color: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+
+
+}
